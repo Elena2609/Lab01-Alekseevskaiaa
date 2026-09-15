@@ -10,4 +10,5 @@ Console.WriteLine($"Логических процессоров: {Environment.Pr
 Console.WriteLine($"PID процессора: {Environment.ProcessId}");
 long memory = Environment.WorkingSet / 1024 / 1024;
 Console.WriteLine($"Память процессора: {memory} МБ");
-Console.ReadLine();
+Console.ReadLine(); 
+
